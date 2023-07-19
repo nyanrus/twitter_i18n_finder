@@ -1,4 +1,4 @@
-import Cookies from "./node_modules/js-cookie/dist/js.cookie.min.mjs";
+import Cookies from "../node_modules/js-cookie/dist/js.cookie.min.mjs";
 
 function getDispNamesLang(lang) {
   return new Intl.DisplayNames([lang], { type: "language" });
